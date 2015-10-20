@@ -1,0 +1,1 @@
+preprocessor symbols÷–º”»ÎUSE_STDPERIPH_DRIVER,STM32F10X_HD

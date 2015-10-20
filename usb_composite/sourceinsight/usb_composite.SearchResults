@@ -1,0 +1,28 @@
+---- pInformation->USBwIndex Matches (23 in 2 files) ----
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):      && (pInformation->USBwIndex == 0)) /*call Back usb spec 2.0*/
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):  Re = (*pProperty->Class_Get_Interface_Setting)(pInformation->USBwIndex0, pInformation->USBwValue0);
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):    if ((Re != USB_SUCCESS) || (pInformation->USBwIndex1 != 0)
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):      pInformation->Current_Interface = pInformation->USBwIndex0;
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):    uint8_t wIndex0 = pInformation->USBwIndex0;
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):        || (pInformation->USBwIndex1 != 0))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):    wIndex0 = pInformation->USBwIndex0;
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):    if (ValBit(pInformation->USBwIndex0, 7))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):  wIndex0 = pInformation->USBwIndex0;
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):  if (ValBit(pInformation->USBwIndex0, 7))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):          || (pInformation->USBwIndex != 0)
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):          && (pInformation->USBwIndex == 0))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):          && pInformation->USBwIndex == 0
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):           && (pInformation->USBwIndex1 == 0))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):        && (pInformation->USBwIndex == 0))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):      if (((*pProperty->Class_Get_Interface_Setting)(pInformation->USBwIndex0, 0) == USB_SUCCESS)
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):      Related_Endpoint = (pInformation->USBwIndex0 & 0x0f);
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):      Reserved = pInformation->USBwIndex0 & 0x70;
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):      if (ValBit(pInformation->USBwIndex0, 7))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):        && (pInformation->USBwIndex1 == 0) && (pInformation->USBwLength == 0x0001)
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):        && ((*pProperty->Class_Get_Interface_Setting)(pInformation->USBwIndex0, 0) == USB_SUCCESS))
+Usb_core.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\sources\src):    pInformation->USBwIndex  = ByteSwap(*pBuf.w++); /* wIndex */
+Usb_prop.c (e:\project\test\usb_composite\stm32_firmware\hid_cdc\ports): /*if (pInformation->USBwIndex != 0) 
+---- pInformation->USBwIndex Search Errors Encountered (2) ----
+The following 2 files could not be processed:
+E:\Project\test\usb_composite\stm32_firmware\USR\JLinkLog.txt : File could not be opened.
+E:\Project\test\usb_composite\stm32_firmware\Output\usb_composite.build_log.htm : File could not be opened.
